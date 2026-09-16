@@ -67,9 +67,6 @@ Schéma global :
 ## 2. Matériel nécessaire
 
  <p align="center">
-  <img src="images/button.png" width="300">
-  <br>
- 
  <kbd>
   <img src="images/button.png" alt="Photo" width="300">
 </kbd>
