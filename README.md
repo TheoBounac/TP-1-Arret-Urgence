@@ -11,7 +11,7 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
 # TP1 — Arrêt d’urgence sans fil pour robots Unitree Go2/G1
 
  <p align="center">
-  <img src="images/Tp1.png" width="450">
+  <img src="images/Tp1.png" width="300">
   <br>
  </p>
 
