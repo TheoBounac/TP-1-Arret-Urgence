@@ -26,8 +26,9 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 3. [Matériel nécessaire](#composants)
 4. [Montage du Transmetteur](#transmetteur)
 5. [Montage du Récepteur](#recepteurvrai)
-6. [Test avec une LED](#test-led)
-7. [Test sur le robot](#test-robot)
+6. [Fonctionnement logique](#logique)
+7. [Test avec une LED](#test-led)
+8. [Test sur le robot](#test-robot)
 
 <a id="objectif"></a>   
 ## 1. Objectif du TP
@@ -168,7 +169,7 @@ Le relais est relié aux deux broches `STOP` du robot via un connecteur jack.
 Le montage utilise le relais en **normalement fermé**. Cela signifie que si le récepteur n’est pas alimenté, le circuit `STOP` est fermé et le robot passe en arrêt d’urgence.
 
 ---
-
+<a id="logique"></a>  
 ## 6. Fonctionnement logique
 
 ### Transmitter — `transmitter.ino`
