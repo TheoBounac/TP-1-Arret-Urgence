@@ -97,32 +97,23 @@ Tout le matériel est fourni le jour du TP.
 <a id="transmetteur"></a>
 ## 3. Montage du Transmitter
 
-<h2>3. Montage du Transmitter</h2>
-
-<table>
-  <tr>
-    <td valign="top">
-
 <table>
   <tr>
     <th>STOP button</th>
     <th>Carte Arduino</th>
+    <td rowspan="3">
+      <img src="images/button.png" alt="Montage transmitter" width="350">
+    </td>
   </tr>
+
   <tr>
     <td>C / COM</td>
     <td>GND</td>
   </tr>
+
   <tr>
     <td>NC</td>
     <td>D2</td>
-  </tr>
-</table>
-
-    </td>
-
-    <td valign="top">
-      <img src="images/button.png" alt="Montage transmitter" width="350">
-    </td>
   </tr>
 </table>
 ---
