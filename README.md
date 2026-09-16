@@ -17,27 +17,23 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
  </p>
 
 Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*. Cet arrêt d’urgence se base sur le travail réalisé par le laboratoire Inria Paris, équipe Willow: [https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master](https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master)
+Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt d’urgence sans fil pour robots Unitree Go2 et G1.
 
 
 ## 📑 Sommaire
 
-1. [Objectif du TP](#objectif)
-2. [Principe de fonctionnement du système](#principe)
-3. [Matériel nécessaire](#composants)
-4. [Montage du Transmetteur](#transmetteur)
-5. [Montage du Récepteur](#recepteurvrai)
-6. [Fonctionnement logique](#logique)
-7. [Test avec une LED](#test-led)
-8. [Test sur le robot](#test-robot)
+1. [Principe de fonctionnement du système](#principe)
+2. [Matériel nécessaire](#composants)
+3. [Montage du Transmetteur](#transmetteur)
+4. [Montage du Récepteur](#recepteurvrai)
+5. [Fonctionnement logique](#logique)
+6. [Test avec une LED](#test-led)
+7. [Test sur le robot](#test-robot)
 
-<a id="objectif"></a>   
-## 1. Objectif du TP
-
-Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt d’urgence sans fil pour robots Unitree, notamment les robots Go2 et G1.
 
 ---
 <a id="principe"></a>
-## 2. Principe de fonctionnement du système
+## 1. Principe de fonctionnement du système
 
 Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `STOP`.
 
@@ -80,7 +76,7 @@ Sur la plupart des robots Unitree, lorsque l’arrêt d’urgence est activé, l
 
 ---
 <a id="composants"></a>
-## 3. Matériel nécessaire
+## 2. Matériel nécessaire
 
 Tout le matériel est fourni le jour du TP.
 
@@ -106,7 +102,7 @@ Tout le matériel est fourni le jour du TP.
 
 ---
 <a id="transmetteur"></a>
-## 4. Montage du Transmitter
+## 3. Montage du Transmitter
 
 Le transmitter correspond au module émetteur côté opérateur.
 
@@ -131,7 +127,7 @@ Cette logique permet de déclencher l’arrêt d’urgence si le bouton est appu
 
 ---
 <a id="recepteurvrai"></a>
-## 5. Montage du Receiver
+## 4. Montage du Receiver
 
 Le receiver correspond au module récepteur côté robot.
 
@@ -162,7 +158,7 @@ Le montage utilise le relais en **normalement fermé**. Cela signifie que si le 
 
 ---
 <a id="logique"></a>  
-## 6. Fonctionnement logique
+## 5. Fonctionnement logique
 
 ### Transmitter — `transmitter.ino`
 
@@ -201,7 +197,7 @@ Après un arrêt d’urgence, si le receiver reste alimenté, le système doit �
 
 ---
 <a id="test-led"></a>
-## 7. Test avec LED
+## 6. Test avec LED
 
 Avant de connecter le système au robot, il est nécessaire de tester le montage avec une LED et une pile.
 
@@ -235,7 +231,7 @@ Le test le plus fiable reste de vérifier la continuité au multimètre.
 
 ---
 <a id="test-robot"></a>
-## 8. Test sur robot
+## 7. Test sur robot
 
 Une fois le test avec LED validé, le système peut être testé sur un robot Go2 ou G1.
 
@@ -257,7 +253,7 @@ Procédure de test :
 
 ---
 
-## 9. Dépannage rapide
+## 8. Dépannage rapide
 
 ### Le receiver passe directement en arrêt d’urgence
 
