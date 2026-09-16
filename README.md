@@ -22,10 +22,10 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 ## 📑 Sommaire
 
 1. [Objectif du TP](#objectif)
-2. [Principe de fonctionnement](#principe)
-3. [Composants](#composants)
-4. [Transmetteur](#transmetteur)
-5. [Récepteur](#récepteur)
+2. [Principe de fonctionnement du système](#principe)
+3. [Matériel nécessaire](#composants)
+4. [Montage du Transmetteur](#transmetteur)
+5. [Montage du Récepteur](#récepteur)
 6. [Test avec une LED](#test-led)
 7. [Test sur le robot](#test-robot)
 
@@ -44,7 +44,7 @@ Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt
 
 ---
 <a id="principe"></a>
-## 2. Principe du système
+## 2. Principe de fonctionnement du système
 
 Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `STOP`.
 
@@ -113,7 +113,7 @@ Tout le matériel est fourni le jour du TP.
 
 ---
 <a id="transmetteur"></a>
-## 4. Montage du transmitter
+## 4. Montage du Transmitter
 
 Le transmitter correspond au module émetteur côté opérateur.
 
@@ -138,7 +138,7 @@ Cette logique permet de déclencher l’arrêt d’urgence si le bouton est appu
 
 ---
 <a id="recepteur"></a>
-## 5. Montage du receiver
+## 5. Montage du Receiver
 
 Le receiver correspond au module récepteur côté robot.
 
