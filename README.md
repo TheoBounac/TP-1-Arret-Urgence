@@ -6,7 +6,7 @@
  <div align="justify">
 Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journées thématiques sur les robots quadrupèdes et humanoïdes afin de favoriser le partage de connaissances et les retours d’expérience autour de ces robots. Cette journée est cofinancée par le réseau 2RM et INRIA.
 </div>
-
+---
  
 # TP1 — Arrêt d’urgence sans fil pour robots Unitree Go2/G1
 
@@ -18,7 +18,7 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
  
 Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*. Cet arrêt d’urgence se base sur le travail réalisé par le laboratoire Inria Paris, équipe Willow: [https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master](https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master)
 
----
+
 ## 📑 Sommaire
 
 1. [Introduction](#1-introduction)
