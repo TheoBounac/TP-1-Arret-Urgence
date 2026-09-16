@@ -25,7 +25,7 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 2. [Principe de fonctionnement du système](#principe)
 3. [Matériel nécessaire](#composants)
 4. [Montage du Transmetteur](#transmetteur)
-5. [Montage du Récepteur](#récepteur)
+5. [Montage du Récepteur](#recepteurvrai)
 6. [Test avec une LED](#test-led)
 7. [Test sur le robot](#test-robot)
 
@@ -137,7 +137,7 @@ Fil débranché      → circuit ouvert → D2 = HIGH → alarme
 Cette logique permet de déclencher l’arrêt d’urgence si le bouton est appuyé, mais aussi si le câble du bouton est débranché.
 
 ---
-<a id="recepteur"></a>
+<a id="recepteurvrai"></a>
 ## 5. Montage du Receiver
 
 Le receiver correspond au module récepteur côté robot.
