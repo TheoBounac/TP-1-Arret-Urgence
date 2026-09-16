@@ -97,26 +97,10 @@ Tout le matériel est fourni le jour du TP.
 <a id="transmetteur"></a>
 ## 3. Montage du Transmitter
 
-Le transmitter correspond au module émetteur côté opérateur.
-
-Le bouton d’arrêt d’urgence est câblé en **normalement fermé** (`NC`).
-
-```text
-STOP button              Carte Arduino
---------------------------------------
-C / COM           <->    GND
-NC                <->    D2
-```
-
-Avec ce montage :
-
-```text
-Bouton non appuyé  → circuit fermé  → D2 = LOW  → pas d’alarme
-Bouton appuyé      → circuit ouvert → D2 = HIGH → alarme
-Fil débranché      → circuit ouvert → D2 = HIGH → alarme
-```
-
-Cette logique permet de déclencher l’arrêt d’urgence si le bouton est appuyé, mais aussi si le câble du bouton est débranché.
+| STOP button |   | Carte Arduino |
+|---|:---:|---|
+| C / COM | ↔ | GND |
+| NC | ↔ | D2 |
 
 ---
 <a id="recepteurvrai"></a>
