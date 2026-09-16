@@ -6,7 +6,7 @@
 # TP — Arrêt d’urgence sans fil pour robots Unitree
 
  <p align="center">
-  <img src="images/Tp1.png" width="600">
+  <img src="images/Tp1.png" width="300">
   <br>
  </p>
 
