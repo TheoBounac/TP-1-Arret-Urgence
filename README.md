@@ -97,10 +97,10 @@ Tout le matériel est fourni le jour du TP.
 <a id="transmetteur"></a>
 ## 3. Montage du Transmitter
 
-| STOP button |   | Carte Arduino |
-|---|:---:|---|
-| C / COM | ↔ | GND |
-| NC | ↔ | D2 |
+| STOP button |    Carte Arduino |
+|---|---|
+| C / COM |  GND |
+| NC |  D2 |
 
 ---
 <a id="recepteurvrai"></a>
