@@ -66,6 +66,11 @@ Schéma global :
 <a id="composants"></a>
 ## 2. Matériel nécessaire
 
+ <p align="center">
+  <img src="images/button.png" width="300">
+  <br>
+ </p>
+ 
 Tout le matériel est fourni le jour du TP.
 
 ### Émetteur
