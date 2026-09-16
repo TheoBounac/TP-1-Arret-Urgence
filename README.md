@@ -21,15 +21,13 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 
 ## 📑 Sommaire
 
-1. [Introduction](#1-introduction)
-2. [Objectif du TP](#objectif)
-3. [Principe de fonctionnement](#3-principe-de-fonctionnement)
-4. [Composants](#4-composants)
-5. [Montage](#5-montage)
-   - [5.1 Transmetteur](#51-transmetteur)
-   - [5.2 Récepteur](#52-récepteur)
-6. [Test avec une LED](#6-test-avec-une-led)
-7. [Test sur le robot](#7-test-sur-le-robot)
+1. [Objectif du TP](#objectif)
+2. [Principe de fonctionnement](#principe)
+3. [Composants](#composants)
+4. [Transmetteur](#transmetteur)
+5. [Récepteur](#récepteur)
+6. [Test avec une LED](#test-led)
+7. [Test sur le robot](#test-robot)
 
 <a id="objectif"></a>   
 ## 1. Objectif du TP
@@ -45,7 +43,7 @@ Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt
 - connecter et tester le système sur un robot Unitree, sous supervision.
 
 ---
-
+<a id="principe"></a>
 ## 2. Principe du système
 
 Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `STOP`.
@@ -88,7 +86,7 @@ Le relais est câblé en **normalement fermé**. Ainsi, si le récepteur n’est
 Sur la plupart des robots Unitree, lorsque l’arrêt d’urgence est activé, l’alimentation USB-C du récepteur peut être coupée. Dans le cas contraire, il est nécessaire de maintenir le bouton reset du récepteur pendant 3 secondes pour réarmer le système.
 
 ---
-
+<a id="composants"></a>
 ## 3. Matériel nécessaire
 
 Tout le matériel est fourni le jour du TP.
@@ -114,7 +112,7 @@ Tout le matériel est fourni le jour du TP.
 - 1 câble USB.
 
 ---
-
+<a id="transmetteur"></a>
 ## 4. Montage du transmitter
 
 Le transmitter correspond au module émetteur côté opérateur.
@@ -139,7 +137,7 @@ Fil débranché      → circuit ouvert → D2 = HIGH → alarme
 Cette logique permet de déclencher l’arrêt d’urgence si le bouton est appuyé, mais aussi si le câble du bouton est débranché.
 
 ---
-
+<a id="recepteur"></a>
 ## 5. Montage du receiver
 
 Le receiver correspond au module récepteur côté robot.
@@ -209,7 +207,7 @@ Le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation
 Après un arrêt d’urgence, si le receiver reste alimenté, le système doit être réarmé manuellement en maintenant le bouton reset pendant 3 secondes.
 
 ---
-
+<a id="test-led"></a>
 ## 7. Test avec LED
 
 Avant de connecter le système au robot, il est nécessaire de tester le montage avec une LED et une pile.
@@ -243,7 +241,7 @@ Il est aussi possible de s’aider de la LED intégrée au module relais, mais i
 Le test le plus fiable reste de vérifier la continuité au multimètre.
 
 ---
-
+<a id="test-robot"></a>
 ## 8. Test sur robot
 
 Une fois le test avec LED validé, le système peut être testé sur un robot Go2 ou G1.
