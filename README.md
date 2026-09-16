@@ -36,9 +36,13 @@ Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt
 <a id="principe"></a>
 ## 1. Principe de fonctionnement du système
 
-Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `STOP`.
+Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `STOP`. Lorsque ces deux broches sont reliées électriquement en circuit fermé, le robot coupe l’alimentation des moteurs et passe en état d’arrêt d’urgence, généralement signalé par des LEDs rouges.
 
-Lorsque ces deux broches sont reliées électriquement en circuit fermé, le robot coupe l’alimentation des moteurs et passe en état d’arrêt d’urgence, généralement signalé par des LEDs rouges.
+ <p align="center">
+  <img src="images/estop.png" width="1000">
+  <br>
+  <em>Pin Stop sur la carte mère du Go2</em>
+ </p>
 
 Le système proposé repose sur deux groupes de composants :
 
