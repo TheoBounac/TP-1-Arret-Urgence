@@ -70,7 +70,9 @@ Schéma global :
   <img src="images/button.png" width="300">
   <br>
  </p>
- 
+ <kbd>
+  <img src="images/button.png" alt="Photo" width="600">
+</kbd>
 Tout le matériel est fourni le jour du TP.
 
 ### Émetteur
