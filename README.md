@@ -46,38 +46,17 @@ Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `ST
 
 Le système proposé repose sur deux groupes de composants :
 
-- un **émetteur** côté opérateur ;
+- un **émetteur** côté opérateur 
 - un **récepteur** côté robot.
 
-Ces deux modules communiquent par radiofréquence.
-
-L’émetteur est composé :
-
-- d’un bouton d’arrêt d’urgence ;
-- d’une carte Arduino avec module radio nRF24.
-
-Le récepteur est composé :
-
-- d’une carte Arduino avec module radio nRF24 ;
-- d’un relais ;
-- d’un bouton reset ;
-- d’un connecteur jack relié aux broches `STOP` du robot.
+L’émetteur reste à proximité de l’opérateur. Lorsque l’opérateur appuie sur le bouton d’arrêt d’urgence, l'information est envoyé par radiofréquence au récepteur.
+Le récepteur est accroché au robot et relié aux deux broches `STOP` de la carte mère par un relais, qui ferme le circuit en cas d'arrêt d'urgence qui coupe alors l'alimentation des moteurs du robot.
 
 Schéma global :
 
 ```text
 [insérer l'image du schéma]
 ```
-
-L’émetteur reste à proximité de l’opérateur et est alimenté en USB. Lorsque l’opérateur appuie sur le bouton d’arrêt d’urgence, l’état d’arrêt d’urgence passe à `TRUE`. Cet état est envoyé régulièrement par radio sur un canal prédéfini.
-
-Le récepteur est accroché au robot. Il est alimenté en USB-C et relié aux deux broches `STOP` de la carte mère du robot via un connecteur jack.
-
-Lorsque le récepteur reçoit un état d’arrêt d’urgence actif, ou lorsqu’il ne reçoit plus de message radio pendant plusieurs cycles, il déclenche le relais. Le relais ferme alors le circuit entre les deux broches `STOP`, ce qui place le robot en arrêt d’urgence.
-
-Le relais est câblé en **normalement fermé**. Ainsi, si le récepteur n’est plus alimenté, le circuit se ferme aussi automatiquement et déclenche l’arrêt d’urgence.
-
-Sur la plupart des robots Unitree, lorsque l’arrêt d’urgence est activé, l’alimentation USB-C du récepteur peut être coupée. Dans le cas contraire, il est nécessaire de maintenir le bouton reset du récepteur pendant 3 secondes pour réarmer le système.
 
 ---
 <a id="composants"></a>
@@ -310,7 +289,7 @@ Receiver en alarme             → circuit fermé  → arrêt d’urgence
 ### Le bouton reset ne fonctionne pas
 
 Vérifier le câblage suivant :
-
+Sur la plupart des robots Unitree, lorsque l’arrêt d’urgence est activé, l’alimentation USB-C du récepteur peut être coupée. Dans le cas contraire, il est nécessaire de maintenir le bouton reset du récepteur pendant 3 secondes pour réarmer le système.
 ```text
 D2  <-> bouton reset <-> GND
 ```
