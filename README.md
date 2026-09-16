@@ -125,20 +125,48 @@ Tout le matériel est fourni le jour du TP.
 ## 4. Montage du Receiver
 
 ### Relais
-| Relais | Carte Arduino |
-|---|---|
-| VCC | 5V |
-| IN1 | D5 |
-| GND | GND |
 
-
+<table align="center">
+  <tr>
+    <th>Relais</th>
+    <th>Carte Arduino</th>
+    <td rowspan="4">
+      <img src="images/button.png" alt="Montage relais" width="350">
+    </td>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>5V</td>
+  </tr>
+  <tr>
+    <td>IN1</td>
+    <td>D5</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+</table>
 
 ### Bouton reset
 
-| Reset button | Carte Arduino |
-|---|---|
-| Pin 1 | D2 |
-| Pin 2 | GND |
+<table align="center">
+  <tr>
+    <th>Reset button</th>
+    <th>Carte Arduino</th>
+    <td rowspan="3">
+      <img src="images/button.png" alt="Montage bouton reset" width="350">
+    </td>
+  </tr>
+  <tr>
+    <td>Pin 1</td>
+    <td>D2</td>
+  </tr>
+  <tr>
+    <td>Pin 2</td>
+    <td>GND</td>
+  </tr>
+</table>
 
 ---
 <a id="logique"></a>  
