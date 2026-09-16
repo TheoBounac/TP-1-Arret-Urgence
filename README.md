@@ -106,32 +106,21 @@ Tout le matériel est fourni le jour du TP.
 <a id="recepteurvrai"></a>
 ## 4. Montage du Receiver
 
-Le receiver correspond au module récepteur côté robot.
-
 ### Relais
+| Relais | Carte Arduino |
+|---|---|
+| VCC | 5V |
+| IN1 | D5 |
+| GND | GND |
 
-```text
-Relais                  Carte Arduino
--------------------------------------
-VCC              <->    5V
-IN1              <->    D5
-GND              <->    GND
-```
+
 
 ### Bouton reset
 
-```text
-Reset button            Carte Arduino
--------------------------------------
-Pin 1            <->    D2
-Pin 2            <->    GND
-```
-
-### Connexion au robot
-
-Le relais est relié aux deux broches `STOP` du robot via un connecteur jack.
-
-Le montage utilise le relais en **normalement fermé**. Cela signifie que si le récepteur n’est pas alimenté, le circuit `STOP` est fermé et le robot passe en arrêt d’urgence.
+| Reset button | Carte Arduino |
+|---|---|
+| Pin 1 | D2 |
+| Pin 2 | GND |
 
 ---
 <a id="logique"></a>  
