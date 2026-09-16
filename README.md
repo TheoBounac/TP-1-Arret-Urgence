@@ -1,4 +1,3 @@
-
  <p align="center">
   <img src="images/banniere.png" width="1000">
   <br>
