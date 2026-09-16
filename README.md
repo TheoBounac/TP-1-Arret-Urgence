@@ -35,14 +35,6 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 
 Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt d’urgence sans fil pour robots Unitree, notamment les robots Go2 et G1.
 
-À la fin du TP, les participants devront être capables de :
-
-- comprendre le principe d’un arrêt d’urgence matériel ;
-- assembler un module émetteur et un module récepteur ;
-- tester le fonctionnement du relais avec une LED ;
-- comprendre le comportement du système en cas d’arrêt d’urgence, de perte radio ou de perte d’alimentation ;
-- connecter et tester le système sur un robot Unitree, sous supervision.
-
 ---
 <a id="principe"></a>
 ## 2. Principe de fonctionnement du système
