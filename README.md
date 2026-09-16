@@ -5,6 +5,12 @@
  
 # TP — Arrêt d’urgence sans fil pour robots Unitree
 
+ <p align="center">
+  <img src="images/Tp1.png" width="600">
+  <br>
+ </p>
+
+ 
 Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*.
 
 Le réseau métier des roboticiens et mécatroniciens du CNRS organise ces journées afin de favoriser le partage de connaissances et les retours d’expérience autour des robots quadrupèdes et humanoïdes.
