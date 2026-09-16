@@ -70,23 +70,23 @@ Tout le matériel est fourni le jour du TP.
 
 ### Émetteur
 
-- 1 bouton d’arrêt d’urgence ;
-- 1 carte Arduino avec nRF24 intégré ;
-- 2 fils de connexion ;
-- 1 boîtier émetteur ;
-- 2 vis ;
-- 1 câble USB.
+- 1 bouton d’arrêt d’urgence 
+- 1 carte Arduino avec nRF24 intégré 
+- 2 fils de connexion 
+- 1 boîtier émetteur 
+- 2 vis 
+- 1 câble USB
 
 ### Récepteur
 
-- 1 relais ;
-- 1 carte Arduino avec nRF24 intégré ;
-- 1 bouton reset ;
-- 5 fils de connexion ;
-- 1 vis ;
-- 2 grandes vis ;
-- 1 boîtier récepteur ;
-- 1 câble USB.
+- 1 relais 
+- 1 carte Arduino avec nRF24 intégré 
+- 1 bouton reset 
+- 5 fils de connexion 
+- 1 vis 
+- 2 grandes vis 
+- 1 boîtier récepteur 
+- 1 câble USB
 
 ---
 <a id="transmetteur"></a>
