@@ -96,7 +96,7 @@ Tout le matériel est fourni le jour du TP.
 ---
 <a id="transmetteur"></a>
 ## 3. Montage du Transmitter
-
+ <p align="center">
 <table>
   <tr>
     <th>STOP button</th>
@@ -116,7 +116,7 @@ Tout le matériel est fourni le jour du TP.
     <td>D2</td>
   </tr>
 </table>
-
+ </p>
 ---
 <a id="recepteurvrai"></a>
 ## 4. Montage du Receiver
