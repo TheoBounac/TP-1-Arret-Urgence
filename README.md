@@ -121,7 +121,7 @@ Tout le matériel est fourni le jour du TP.
     </td>
 
     <td valign="top">
-      <img src="images/transmitter.png" alt="Montage transmitter" width="350">
+      <img src="images/button.png" alt="Montage transmitter" width="350">
     </td>
   </tr>
 </table>
