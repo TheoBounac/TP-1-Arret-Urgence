@@ -22,7 +22,7 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 ## 📑 Sommaire
 
 1. [Introduction](#1-introduction)
-2. [Objectif du TP](#2-objectif-du-tp)
+2. [Objectif du TP](#objectif)
 3. [Principe de fonctionnement](#3-principe-de-fonctionnement)
 4. [Composants](#4-composants)
 5. [Montage](#5-montage)
@@ -31,7 +31,7 @@ Ce TP est le premier TP des journées thématiques *robotique quadrupède et hum
 6. [Test avec une LED](#6-test-avec-une-led)
 7. [Test sur le robot](#7-test-sur-le-robot)
 
-   
+<a id="objectif"></a>   
 ## 1. Objectif du TP
 
 Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt d’urgence sans fil pour robots Unitree, notamment les robots Go2 et G1.
