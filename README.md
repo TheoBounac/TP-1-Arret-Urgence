@@ -16,7 +16,7 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
  </p>
 
  
-Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*. Cet arrêt d’urgence se base sur le travail réalisé par le laboratoire Inria Paris, équipe Willow: [https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master]([https://www.unitree.com/](https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master))
+Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*. Cet arrêt d’urgence se base sur le travail réalisé par le laboratoire Inria Paris, équipe Willow: [https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master](https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master)
 
 ---
 
