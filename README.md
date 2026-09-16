@@ -1,4 +1,4 @@
-<img src="images/banniere.png" alt="Schéma du système">
+<img src="images/banniere.png">
 # TP — Arrêt d’urgence sans fil pour robots Unitree
 
 Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*.
