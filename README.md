@@ -222,10 +222,6 @@ Après un arrêt d’urgence, si le receiver reste alimenté, le système doit �
 <a id="test-led"></a>
 ## 6. Test avec LED
 
-Avant de connecter le système au robot, il est nécessaire de tester le montage avec une LED et une pile.
-
-Ce test permet de comprendre le fonctionnement du relais et de vérifier que le montage se comporte comme attendu.
-
 Branchez la sortie du relais en circuit fermé avec la LED, comme indiqué sur la photo suivante :
 
 ```text
@@ -250,87 +246,11 @@ Transmitter éteint ou signal perdu → LED allumée
 
 Il est aussi possible de s’aider de la LED intégrée au module relais, mais il ne faut pas uniquement se fier à elle. Selon les modules, cette LED peut indiquer l’alimentation du relais ou l’état de commande, sans forcément représenter directement l’état réel du circuit `STOP`.
 
-Le test le plus fiable reste de vérifier la continuité au multimètre.
-
 ---
 <a id="test-robot"></a>
+
 ## 7. Test sur robot
-
-Une fois le test avec LED validé, le système peut être testé sur un robot Go2 ou G1.
-
-Le receiver est connecté au robot via le connecteur jack relié aux deux broches `STOP`.
-
-Attention : lorsque l’arrêt d’urgence est déclenché, le robot peut tomber brutalement. Le robot doit donc être maintenu ou attaché avant le test.
-
-Procédure de test :
-
-1. Vérifier le montage avec la LED.
-2. Vérifier la continuité du relais au multimètre.
-3. Brancher le transmitter.
-4. Brancher le receiver.
-5. Vérifier que le receiver passe en état autorisé.
-6. Connecter le receiver aux broches `STOP` du robot via le jack.
-7. Appuyer sur le bouton d’arrêt d’urgence.
-8. Vérifier que le robot passe bien en arrêt d’urgence.
-9. Réarmer le système avec le bouton reset si nécessaire.
-
----
 
 ## 8. Dépannage rapide
 
-### Le receiver passe directement en arrêt d’urgence
 
-Causes possibles :
-
-- le transmitter n’est pas alimenté ;
-- le transmitter et le receiver ne sont pas sur le même canal radio ;
-- l’adresse radio est différente entre les deux cartes ;
-- le bouton d’arrêt d’urgence est déjà appuyé ;
-- le signal radio est perdu ;
-- le relais est câblé à l’envers ;
-- la logique `RELAY_RUN` / `RELAY_STOP` est inversée dans le code.
-
-### Le transmitter affiche `radio.write=ECHEC`
-
-Causes possibles :
-
-- le receiver n’est pas alimenté ;
-- le receiver n’écoute pas sur le bon canal ;
-- l’adresse radio ne correspond pas ;
-- le mauvais firmware est chargé sur une des cartes ;
-- les deux cartes sont trop proches ou trop éloignées ;
-- l’alimentation d’une carte est instable.
-
-### Le relais semble inversé
-
-Si le relais ferme le circuit quand il devrait l’ouvrir, ou inversement, il faut vérifier la logique utilisée dans le code receiver :
-
-```cpp
-#define RELAY_RUN  HIGH
-#define RELAY_STOP LOW
-```
-
-ou :
-
-```cpp
-#define RELAY_RUN  LOW
-#define RELAY_STOP HIGH
-```
-
-Le bon réglage est celui qui donne le comportement suivant :
-
-```text
-Receiver non alimenté          → circuit fermé  → arrêt d’urgence
-Receiver alimenté et autorisé  → circuit ouvert → robot autorisé
-Receiver en alarme             → circuit fermé  → arrêt d’urgence
-```
-
-### Le bouton reset ne fonctionne pas
-
-Vérifier le câblage suivant :
-Sur la plupart des robots Unitree, lorsque l’arrêt d’urgence est activé, l’alimentation USB-C du récepteur peut être coupée. Dans le cas contraire, il est nécessaire de maintenir le bouton reset du récepteur pendant 3 secondes pour réarmer le système.
-```text
-D2  <-> bouton reset <-> GND
-```
-
-Le bouton reset doit être maintenu pendant 3 secondes pour réarmer le système après un arrêt d’urgence.
