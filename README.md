@@ -97,6 +97,17 @@ Tout le matériel est fourni le jour du TP.
 <a id="transmetteur"></a>
 ## 3. Montage du Transmitter
 
+<table align="center">
+  <tr>
+    <th>Carte Arduino</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/carte_arduino.png" alt="Carte Arduino" width="300">
+    </td>
+  </tr>
+</table>
+
 <div align="center">
 <table>
   <tr>
