@@ -58,9 +58,10 @@ Le récepteur est accroché au robot et relié aux deux broches `STOP` de la car
 
 Schéma global :
 
-```text
-[insérer l'image du schéma]
-```
+ <p align="center">
+  <img src="images/schema.png" width="300">
+  <br>
+ </p>
 
 ---
 <a id="composants"></a>
