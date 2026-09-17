@@ -188,36 +188,27 @@ Tout le matériel est fourni le jour du TP.
 
 Le transmitter :
 
-- lit l’état du bouton d’arrêt d’urgence ;
-- convertit cet état en booléen ;
-- envoie ce booléen par radio toutes les 100 ms.
-
-La logique utilisée est la suivante :
-
-```text
-Bouton non appuyé  → ALARM FALSE
-Bouton appuyé      → ALARM TRUE
-```
+- lit l’état du bouton d’arrêt d’urgence 
+- convertit cet état en booléen 
+- envoie ce booléen par radio toutes les 100 ms
 
 ### Receiver — `receiver.ino`
 
 Le receiver :
 
-- écoute les messages radio envoyés par le transmitter ;
-- utilise un algorithme de type **leaky bucket** pour détecter une perte de communication ;
-- commande le relais connecté aux broches `STOP` du robot.
+- écoute les messages radio envoyés par le transmitter 
+- utilise un algorithme de type **leaky bucket** pour détecter une perte de communication 
+- commande le relais connecté aux broches `STOP` du robot
 
 Lorsque le receiver est alimenté, il place d’abord le relais en circuit ouvert afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
 
 Le relais ferme le circuit `STOP` dans les cas suivants :
 
-- un message `TRUE` est reçu du transmitter ;
-- aucun message n’est reçu pendant une certaine période ;
-- l’alimentation du receiver est coupée.
+- un message `TRUE` est reçu du transmitter 
+- aucun message n’est reçu pendant une certaine période 
+- l’alimentation du receiver est coupée. Car le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du receiver est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
 
-Le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du receiver est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
-
-Après un arrêt d’urgence, si le receiver reste alimenté, le système doit être réarmé manuellement en maintenant le bouton reset pendant 3 secondes.
+Après un arrêt d’urgence, si le receiver reste alimenté (par une batterie externe), le système doit être réarmé manuellement en maintenant le bouton reset pendant 3 secondes.
 
 ---
 <a id="test-led"></a>
@@ -234,15 +225,6 @@ Dans ce test :
 ```text
 LED allumée  → circuit fermé  → arrêt d’urgence actif
 LED éteinte  → circuit ouvert → robot autorisé
-```
-
-Comportement attendu :
-
-```text
-Receiver non alimenté              → LED allumée
-Receiver alimenté et autorisé      → LED éteinte
-Bouton d’arrêt d’urgence appuyé    → LED allumée
-Transmitter éteint ou signal perdu → LED allumée
 ```
 
 Il est aussi possible de s’aider de la LED intégrée au module relais, mais il ne faut pas uniquement se fier à elle. Selon les modules, cette LED peut indiquer l’alimentation du relais ou l’état de commande, sans forcément représenter directement l’état réel du circuit `STOP`.
