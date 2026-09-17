@@ -69,7 +69,7 @@ Schéma global :
 
  <p align="center">
  <kbd>
-  <img src="images/button.png" alt="Photo" width="300">
+  <img src="images/boites.png" alt="Photo" width="300">
 </kbd>
 </p>
 Tout le matériel est fourni le jour du TP.
