@@ -103,7 +103,7 @@ Tout le matériel est fourni le jour du TP.
     <th>STOP button</th>
     <th>Carte Arduino</th>
     <td rowspan="3">
-      <img src="images/button.png" alt="Montage transmitter" width="350">
+      <img src="images/emetteur_cable.png" alt="Montage transmitter" width="350">
     </td>
   </tr>
 
@@ -131,7 +131,7 @@ Tout le matériel est fourni le jour du TP.
     <th>Relais</th>
     <th>Carte Arduino</th>
     <td rowspan="4">
-      <img src="images/button.png" alt="Montage relais" width="350">
+      <img src="images/receptteur_cable.png" alt="Montage relais" width="350">
     </td>
   </tr>
   <tr>
