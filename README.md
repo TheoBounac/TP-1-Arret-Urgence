@@ -15,7 +15,7 @@ Le réseau métier des roboticiens et mécatroniciens du CNRS organise des journ
   <img src="images/Tp1.png" width="300">
   <br>
  </p>
-
+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
 Ce TP est le premier TP des journées thématiques *robotique quadrupède et humanoïde 2026*. Cet arrêt d’urgence se base sur le travail réalisé par le laboratoire Inria Paris, équipe Willow: [https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master](https://github.com/inria-paris-robotics-lab/wireless-e-stop/tree/master).
 
 Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt d’urgence sans fil pour robots Unitree Go2 et G1.
@@ -59,7 +59,7 @@ Le récepteur est accroché au robot et relié aux deux broches `STOP` de la car
 Schéma global :
 
  <p align="center">
-  <img src="images/schema.png" width="700">
+  <img src="images/schema.png" width="300">
   <br>
  </p>
 
