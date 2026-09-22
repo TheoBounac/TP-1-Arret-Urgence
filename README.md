@@ -191,11 +191,13 @@ L'émetteur :
 
 Le récepteur :
 
-- écoute les messages radio envoyés par le transmitter 
+- écoute les messages radio envoyés par l'émetteur 
 - utilise un algorithme de type **leaky bucket** pour détecter une perte de communication 
 - commande le relais connecté aux broches `STOP` du robot
 
-Lorsque le receiver est alimenté, il place d’abord le relais en circuit ouvert afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
+> ⚠️ **Attention**
+>
+> Lorsque le récepteur est alimenté, il place d’abord le relais en **circuit ouvert** afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
 
 Le relais ferme le circuit `STOP` dans les cas suivants :
 
