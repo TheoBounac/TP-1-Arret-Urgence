@@ -237,6 +237,5 @@ Il est aussi possible de s’aider de la LED intégrée au module relais, mais i
 
 ## 7. Test sur robot
 
-## 8. Dépannage rapide
 
 
