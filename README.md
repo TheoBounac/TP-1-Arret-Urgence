@@ -199,7 +199,7 @@ Le récepteur :
 >
 > Lorsque le récepteur est alimenté, il place d’abord le relais en **circuit ouvert** afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
 
-Le relais ferme le circuit `STOP` dans les cas suivants :
+ ### Le relais ferme le circuit `STOP` dans les cas suivants :
 
 - un message `TRUE` est reçu du transmitter 
 - aucun message n’est reçu pendant une certaine période 
