@@ -198,9 +198,9 @@ Le récepteur :
 
  ### Le relais ferme le circuit `STOP` dans les cas suivants :
 
-- un message `TRUE` est reçu du transmitter 
-- aucun message n’est reçu pendant une certaine période 
-- l’alimentation du receiver est coupée. Car le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du receiver est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
+- CAS 1: un message `TRUE` est reçu du transmitter 
+- CAS 2: aucun message n’est reçu pendant une certaine période 
+- CAS 3: l’alimentation du receiver est coupée. Car le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du receiver est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
   
  <p align="center">
   <img src="images/cas.png" width="750">
@@ -209,7 +209,7 @@ Le récepteur :
 
 > ⚠️ **Attention**
 >
-> Lorsque le récepteur est alimenté, il place d’abord le relais en **circuit ouvert** afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
+> Lorsque le récepteur est alimenté, il place le relais en **circuit ouvert**, s'il n'est pas assez rapide pour effectuer cette action il peut au démarrage déclencher l'arrêt d'urgence.
 > 
 Après un arrêt d’urgence, si le receiver reste alimenté (par une batterie externe), le système doit être réarmé manuellement en maintenant le bouton reset pendant 3 secondes.
 
