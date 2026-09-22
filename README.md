@@ -81,10 +81,6 @@ Tout le matériel est fourni le jour du TP.
   <br>
  </p>
  
-<table>
-<tr>
-<td width="55%" valign="top">
-
 
  ### Récepteur
  <p align="center">
@@ -92,11 +88,6 @@ Tout le matériel est fourni le jour du TP.
   <br>
  </p>
  
-<table>
-<tr>
-<td width="55%" valign="top">
-
-
 
 ---
 <a id="transmetteur"></a>
