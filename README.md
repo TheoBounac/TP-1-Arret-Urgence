@@ -99,7 +99,7 @@ Tout le matériel est fourni le jour du TP.
   </tr>
   <tr>
     <td align="center">
-      <img src="images/carte_arduino.png" alt="Carte Arduino" width="300">
+      <img src="images/ardui.png" alt="Carte Arduino" width="300">
     </td>
   </tr>
 </table>
