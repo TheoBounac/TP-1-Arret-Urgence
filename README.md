@@ -195,16 +195,22 @@ Le récepteur :
 - utilise un algorithme de type **leaky bucket** pour détecter une perte de communication 
 - commande le relais connecté aux broches `STOP` du robot
 
-> ⚠️ **Attention**
->
-> Lorsque le récepteur est alimenté, il place d’abord le relais en **circuit ouvert** afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
 
  ### Le relais ferme le circuit `STOP` dans les cas suivants :
 
 - un message `TRUE` est reçu du transmitter 
 - aucun message n’est reçu pendant une certaine période 
 - l’alimentation du receiver est coupée. Car le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du receiver est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
+  
+ <p align="center">
+  <img src="images/cas.png" width="300">
+  <br>
+ </p>
 
+> ⚠️ **Attention**
+>
+> Lorsque le récepteur est alimenté, il place d’abord le relais en **circuit ouvert** afin d’autoriser le robot. Ensuite, il surveille en continu l’état reçu par radio.
+> 
 Après un arrêt d’urgence, si le receiver reste alimenté (par une batterie externe), le système doit être réarmé manuellement en maintenant le bouton reset pendant 3 secondes.
 
 ---
