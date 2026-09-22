@@ -74,15 +74,18 @@ Schéma global :
 </p>
 Tout le matériel est fourni le jour du TP.
 
-<table>
-<tr>
-<td width="55%" valign="top">
 
-# Emétteur
+# Emetteur
  <p align="center">
   <img src="images/liste_em.png" width="700">
   <br>
  </p>
+ 
+<table>
+<tr>
+<td width="55%" valign="top">
+
+
  
 <h3>Récepteur</h3>
 
