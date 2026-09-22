@@ -86,31 +86,17 @@ Tout le matériel est fourni le jour du TP.
 <td width="55%" valign="top">
 
 
+ ### Récepteur
+ <p align="center">
+  <img src="images/liste_rec.png" width="400">
+  <br>
+ </p>
  
-<h3>Récepteur</h3>
+<table>
+<tr>
+<td width="55%" valign="top">
 
-<ul>
-  <li>1 relais</li>
-  <li>1 carte Arduino avec nRF24 intégré</li>
-  <li>1 bouton reset</li>
-  <li>5 fils de connexion</li>
-  <li>1 vis</li>
-  <li>2 grandes vis</li>
-  <li>1 boîtier récepteur</li>
-  <li>1 câble USB</li>
-</ul>
 
-</td>
-<td width="45%" align="center" valign="top">
-
-<img src="images/materiel_recepteur.jpg" width="320">
-
-<br>
-<em>Matériel nécessaire pour le récepteur</em>
-
-</td>
-</tr>
-</table>
 
 ---
 <a id="transmetteur"></a>
