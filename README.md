@@ -75,9 +75,9 @@ Schéma global :
 Tout le matériel est fourni le jour du TP.
 
 
-# Emetteur
+### Emetteur
  <p align="center">
-  <img src="images/liste_em.png" width="700">
+  <img src="images/liste_em.png" width="400">
   <br>
  </p>
  
