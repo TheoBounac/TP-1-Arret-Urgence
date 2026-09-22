@@ -179,17 +179,17 @@ Tout le matériel est fourni le jour du TP.
 <a id="logique"></a>  
 ## 5. Fonctionnement logique
 
-### Transmitter — `transmitter.ino`
+### Emetteur — `emetteur.ino`
 
-Le transmitter :
+L'émetteur :
 
 - lit l’état du bouton d’arrêt d’urgence 
 - convertit cet état en booléen 
 - envoie ce booléen par radio toutes les 100 ms
 
-### Receiver — `receiver.ino`
+### Récepteur — `recepteur.ino`
 
-Le receiver :
+Le récepteur :
 
 - écoute les messages radio envoyés par le transmitter 
 - utilise un algorithme de type **leaky bucket** pour détecter une perte de communication 
