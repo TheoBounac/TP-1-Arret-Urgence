@@ -230,7 +230,7 @@ LED allumée  → circuit fermé  → arrêt d’urgence actif
 LED éteinte  → circuit ouvert → robot autorisé
 ```
 
-Il est aussi possible de s’aider de la LED intégrée au module relais, mais il ne faut pas uniquement se fier à elle. Selon les modules, cette LED peut indiquer l’alimentation du relais ou l’état de commande, sans forcément représenter directement l’état réel du circuit `STOP`.
+Il est aussi possible de s’aider de la LED intégrée au module relais.
 
 ---
 <a id="test-robot"></a>
