@@ -232,6 +232,12 @@ LED éteinte  → circuit ouvert → robot autorisé
 
 Il est aussi possible de s’aider de la LED intégrée au module relais.
 
+ <p align="center">
+  <img src="images/relais_ex.png" width="750">
+  <br>
+ </p>
+ 
+
 ---
 <a id="test-robot"></a>
 
