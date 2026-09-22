@@ -78,33 +78,12 @@ Tout le matériel est fourni le jour du TP.
 <tr>
 <td width="55%" valign="top">
 
-<h3>Émetteur</h3>
-
-<ul>
-  <li>1 bouton d’arrêt d’urgence</li>
-  <li>1 carte Arduino avec nRF24 intégré</li>
-  <li>2 fils de connexion</li>
-  <li>1 boîtier émetteur</li>
-  <li>2 vis</li>
-  <li>1 câble USB</li>
-</ul>
-
-</td>
-<td width="45%" align="center" valign="top">
-
-<img src="images/materiel_emetteur.jpg" width="320">
-
-<br>
-<em>Matériel nécessaire pour l’émetteur</em>
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
+# Emétteur
+ <p align="center">
+  <img src="images/liste_em.png" width="700">
+  <br>
+ </p>
+ 
 <h3>Récepteur</h3>
 
 <ul>
