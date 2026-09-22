@@ -198,7 +198,7 @@ Le récepteur :
 
  ### Le relais ferme le circuit `STOP` dans les cas suivants :
 
-- CAS 1: un message `TRUE` est reçu du transmitter 
+- CAS 1: un message `TRUE` est reçu de l'émetteur 
 - CAS 2: aucun message n’est reçu pendant une certaine période 
 - CAS 3: l’alimentation du récepteur est coupée. Car le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du récepteur est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
   
