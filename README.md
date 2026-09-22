@@ -74,25 +74,61 @@ Schéma global :
 </p>
 Tout le matériel est fourni le jour du TP.
 
-### Émetteur
+<table>
+<tr>
+<td width="55%" valign="top">
 
-- 1 bouton d’arrêt d’urgence 
-- 1 carte Arduino avec nRF24 intégré 
-- 2 fils de connexion 
-- 1 boîtier émetteur 
-- 2 vis 
-- 1 câble USB
+<h3>Émetteur</h3>
 
-### Récepteur
+<ul>
+  <li>1 bouton d’arrêt d’urgence</li>
+  <li>1 carte Arduino avec nRF24 intégré</li>
+  <li>2 fils de connexion</li>
+  <li>1 boîtier émetteur</li>
+  <li>2 vis</li>
+  <li>1 câble USB</li>
+</ul>
 
-- 1 relais 
-- 1 carte Arduino avec nRF24 intégré 
-- 1 bouton reset 
-- 5 fils de connexion 
-- 1 vis 
-- 2 grandes vis 
-- 1 boîtier récepteur 
-- 1 câble USB
+</td>
+<td width="45%" align="center" valign="top">
+
+<img src="images/materiel_emetteur.jpg" width="320">
+
+<br>
+<em>Matériel nécessaire pour l’émetteur</em>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+<h3>Récepteur</h3>
+
+<ul>
+  <li>1 relais</li>
+  <li>1 carte Arduino avec nRF24 intégré</li>
+  <li>1 bouton reset</li>
+  <li>5 fils de connexion</li>
+  <li>1 vis</li>
+  <li>2 grandes vis</li>
+  <li>1 boîtier récepteur</li>
+  <li>1 câble USB</li>
+</ul>
+
+</td>
+<td width="45%" align="center" valign="top">
+
+<img src="images/materiel_recepteur.jpg" width="320">
+
+<br>
+<em>Matériel nécessaire pour le récepteur</em>
+
+</td>
+</tr>
+</table>
 
 ---
 <a id="transmetteur"></a>
