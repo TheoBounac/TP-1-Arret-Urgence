@@ -203,7 +203,7 @@ Le récepteur :
 - CAS 3: l’alimentation du récepteur est coupée. Car le relais est en **normalement fermé**, c’est-à-dire que si l’alimentation du récepteur est coupée, le relais revient naturellement dans l’état qui déclenche l’arrêt d’urgence.
   
  <p align="center">
-  <img src="images/cas.png" width="750">
+  <img src="images/cas_2.png" width="750">
   <br>
  </p>
 
