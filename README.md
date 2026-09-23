@@ -226,8 +226,8 @@ Branchez la sortie du relais en circuit fermé avec la LED, comme indiqué sur l
 Dans ce test :
 
 ```text
-LED allumée  → circuit fermé  → arrêt d’urgence actif
-LED éteinte  → circuit ouvert → robot autorisé
+LED Jaune éteinte  → circuit ouvert → robot autorisé
+LED Jaune allumée  → circuit fermé  → arrêt d’urgence activé, le robot est arrêté
 ```
 
 Il est aussi possible de s’aider de la LED intégrée au module relais.
