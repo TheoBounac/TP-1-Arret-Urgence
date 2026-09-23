@@ -219,9 +219,10 @@ Après un arrêt d’urgence, si le receiver reste alimenté (par une batterie e
 
 Branchez la sortie du relais en circuit fermé avec la LED, comme indiqué sur la photo suivante :
 
-```text
-[insérer photo]
-```
+ <p align="center">
+  <img src="images/circuit_led.png" width="600">
+  <br>
+ </p>
 
 Dans ce test :
 
