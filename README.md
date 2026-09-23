@@ -41,7 +41,7 @@ Sur la carte mère des robots Unitree Go2 et G1, deux broches portent le nom `ST
 </div>
 
  <p align="center">
-  <img src="images/estop.png" width="1000">
+  <img src="images/estop_2.png" width="1000">
   <br>
   <em>Pin Stop sur la carte mère du Go2</em>
  </p>
