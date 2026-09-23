@@ -234,7 +234,7 @@ LED Jaune allumée  → circuit fermé  → arrêt d’urgence activé, le robot
 Il est aussi possible de s’aider de la LED intégrée au module relais.
 
  <p align="center">
-  <img src="images/relais_ex.png" width="750">
+  <img src="images/relais_ex_2.png" width="750">
   <br>
  </p>
  
