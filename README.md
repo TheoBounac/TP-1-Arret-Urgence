@@ -25,7 +25,7 @@ Ce TP a pour objectif de comprendre, assembler et tester un prototype d’arrêt
 
 1. [Principe de fonctionnement du système](#principe)
 2. [Matériel nécessaire](#composants)
-3. [Montage du Transmetteur](#transmetteur)
+3. [Montage de l'Emetteur](#transmetteur)
 4. [Montage du Récepteur](#recepteurvrai)
 5. [Fonctionnement logique](#logique)
 6. [Test avec une LED](#test-led)
@@ -52,7 +52,7 @@ Le système proposé repose sur deux groupes de composants :
 - un **récepteur** côté robot.
 
  <div align="justify">
-L’émetteur reste à proximité de l’opérateur. Lorsque l’opérateur appuie sur le bouton d’arrêt d’urgence, l'information est envoyé par radiofréquence au récepteur.
+L’émetteur reste à proximité de l’opérateur. Lorsque l’opérateur appuie sur le bouton d’arrêt d’urgence, l'information est envoyée par radiofréquence au récepteur.
 Le récepteur est accroché au robot et relié aux deux broches `STOP` de la carte mère par un relais, qui ferme le circuit en cas d'arrêt d'urgence qui coupe alors l'alimentation des moteurs du robot.
 </div>
 
@@ -91,7 +91,7 @@ Tout le matériel est fourni le jour du TP.
 
 ---
 <a id="transmetteur"></a>
-## 3. Montage du Transmitter
+## 3. Montage de l'Emetteur
 
 <table align="center">
   <tr>
@@ -129,7 +129,7 @@ Tout le matériel est fourni le jour du TP.
 ---
 <a id="recepteurvrai"></a>
 
-## 4. Montage du Receiver
+## 4. Montage du Récepteur
 
 ### Relais
 
