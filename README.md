@@ -255,6 +255,7 @@ Louise Manson, Timothee CARECCHIO [Laboratory **Inria Paris**]
 Théo Bounaceur [Laboratory **LORIA** CNRS]
 
 🧬 Field: Unitree robots · Emergency STOP 
+
 📫 Contact: theo.bounaceur@loria.fr & louise.manson@inria.fr & timothee.carecchio@inria.fr
 
 **Supervisors / Advisors:**  
