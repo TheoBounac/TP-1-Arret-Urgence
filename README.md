@@ -245,4 +245,18 @@ Il est aussi possible de s’aider de la LED intégrée au module relais.
 ## 7. Test sur robot
 
 
+---
 
+## 👥 Authors & Contributors
+
+**Author:**  
+Louise Manson, Timothee CARECCHIO [Laboratory **Inria Paris**]
+Théo Bounaceur [Laboratory **LORIA** CNRS]
+🧬 Field: Unitree robots · Emergency STOP 
+📫 Contact: theo.bounaceur@loria.fr & louise.manson@inria.fr & timothee.carecchio@inria.fr
+
+**Supervisors / Advisors:**  
+- Pierre-guillaume Raverdy, Ingénieur robotique, Inria Paris
+- Adrien Guenard, Ingénieur robotique, Loria 
+
+  
