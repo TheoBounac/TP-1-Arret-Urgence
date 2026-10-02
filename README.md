@@ -250,9 +250,9 @@ Il est aussi possible de s’aider de la LED intégrée au module relais.
 ## 👥 Authors & Contributors
 
 **Author:**  
-Louise Manson, Timothee CARECCHIO [Laboratory **Inria Paris**]
+Louise Manson, Timothee CARECCHIO, Laboratory **Inria Paris**
 
-Théo Bounaceur [Laboratory **LORIA** CNRS]
+Théo Bounaceur, Laboratory **LORIA** CNRS
 
 🧬 Field: Unitree robots · Emergency STOP 
 
